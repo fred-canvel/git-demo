@@ -33,4 +33,16 @@ elif choice == '4':
     print(f"{num1} / {num2} = {divide(num1, num2)}")
 else:
     print("Invalid input")
+    def power(x, y):
+        return x ** y
 
+    def modulus(x, y):
+        return x % y
+
+    print("5. Power")
+    print("6. Modulus")
+
+    if choice == '5':
+        print(f"{num1} ^ {num2} = {power(num1, num2)}")
+    elif choice == '6':
+        print(f"{num1} % {num2} = {modulus(num1, num2)}")
